@@ -1,0 +1,13 @@
+[package]
+name = "apple_gpui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+data-url = "0.3.1"
+deno_core = "0.292.0"
+gpui = { git = "https://github.com/zed-industries/zed" }
+reqwest = "0.12.5"
+tokio = { version = "1.38.0", features = ["full"] }
+deno_ast = { version = "0.39.2", features = ["transpiling"] }
+
